@@ -4,7 +4,7 @@ const data = {
     sitetagline: "Reserve your spot now and unlock the potential for higher profits.",
     siteurl: "https://github.com/baikaresandip",
     sitelogo: "",
-    title: "",
+    title: "COMING SOON!",
     description: "Maximize Your Brand's Visibility – Florida's Busiest Streets Await!",
     newsletterheading: "Enter your email below to secure early access and exclusive offers!",
     copyrightText: ``,
