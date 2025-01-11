@@ -10,7 +10,7 @@ function ComingSoonContent() {
           <span className="bg-clip-text text-transparent text-white">
             {title}
           </span>
-          <span className="">⏳</span>
+        {/*   <span className="">⏳</span> */}
         </h2>
         <p
           className="text-2xl md:text-3xl px-6 py-20 max-w-3xl text-center m-5 text-black font-large"
