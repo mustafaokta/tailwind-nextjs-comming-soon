@@ -1,4 +1,3 @@
-
 import { Inter } from "next/font/google";
 import data from "../../../data/data";
 const inter = Inter({ subsets: ["latin"] });
@@ -20,11 +19,18 @@ export default function StandardComingSoon() {
     title,
   } = data;
 
-
   return (
     <>
-      <main className="flex min-h-screen flex-col items-center justify-between p-5 lg:p-12">
-        <Header />
+      <main
+        className="flex min-h-screen flex-col items-center justify-between p-5 lg:p-12"
+        style={{
+          backgroundImage: "url('/bg-1.jpg')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
+      >
+      {/*   <Header /> */}
         <ComingSoonContent />
         <SubscribeForm />
         <Footer />

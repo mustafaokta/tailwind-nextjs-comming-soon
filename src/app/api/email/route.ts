@@ -5,7 +5,8 @@ const prisma = new PrismaClient();
 export const POST = async (req: Request) => {
   try {
     const body = await req.json();
-    const { email } = body;
+    const { email, fullName,  isApproved} = body;
+console.log('email geldi', email, fullName, isApproved);
 
     if (!email || !email.includes('@')) {
       return new Response(JSON.stringify({ message: 'Invalid email address' }), {
@@ -16,7 +17,7 @@ export const POST = async (req: Request) => {
 
     try {
       await prisma.email.create({
-        data: { address: email },
+        data: { address: email, fullname: fullName, isApproved:isApproved },
       });
       return new Response(JSON.stringify({ message: 'Email saved successfully!' }), {
         status: 201,

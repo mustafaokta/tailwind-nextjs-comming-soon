@@ -10,5 +10,7 @@ datasource db {
 model Email {
   id        Int      @id @default(autoincrement())
   address   String   @unique
+  fullname  String
+  isApproved Boolean  @default(false)
   createdAt DateTime @default(now())
 }
