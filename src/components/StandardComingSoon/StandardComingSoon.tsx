@@ -22,7 +22,7 @@ export default function StandardComingSoon() {
   return (
     <>
       <main
-        className="flex min-h-screen flex-col items-center justify-between p-5 lg:p-12"
+        className="flex min-h-screen flex-col items-center  justify-between p-5 lg:p-12"
         style={{
           backgroundImage: "url('/bg-1.jpg')",
           backgroundSize: "cover",
