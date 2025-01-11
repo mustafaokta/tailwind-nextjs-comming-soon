@@ -11,7 +11,7 @@ const data = {
     socialIconsHeading: "",
     hideSubscribeForm: false, // make true to disable subscription form 
     socialIcons: [
-        /* {
+         {
             icon: "facebook",
             link: "https://www.facebook.com/",
         },
@@ -22,7 +22,7 @@ const data = {
         {
             icon: "linkedIn",
             link: "https://www.linkedin.com/",
-        }, */
+        }, 
     ],
     hide :{
         subscribeForm: false, // make true to disable subscription form         
