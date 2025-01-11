@@ -5,7 +5,7 @@ export default function Home() {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
   
-  const [fullName, setFullName] = useState<string>("Jane Doe");
+  const [fullName, setFullName] = useState<string>("");
   const [isApproved, setIsApproved] = useState<boolean>(false);
 
 
