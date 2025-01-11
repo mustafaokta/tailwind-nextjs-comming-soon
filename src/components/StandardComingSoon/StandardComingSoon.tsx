@@ -33,7 +33,7 @@ export default function StandardComingSoon() {
       {/*   <Header /> */}
         <ComingSoonContent />
         <SubscribeForm />
-        <Footer />
+     {/*    <Footer /> */}
       </main>
     </>
   );
