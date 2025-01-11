@@ -6,7 +6,7 @@ function ComingSoonContent() {
   return (
     <>
       <div className="relative flex flex-col  place-items-center ">
-        <h2 className="text-center font-heading my-28 text-4xl sm:text-4xl lg:text-6xl leading-[5rem] sm:leading-[7rem] lg:leading-[7rem] font-black	 ">
+        <h2 className="text-center font-heading my-28 text-3xl sm:text-3xl lg:text-4xl leading-[5rem] sm:leading-[7rem] lg:leading-[7rem] font-black	 ">
           <span className="bg-clip-text text-transparent text-white">
             {title}
           </span>
