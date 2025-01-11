@@ -13,7 +13,7 @@ function ComingSoonContent() {
         {/*   <span className="">⏳</span> */}
         </h2>
         <p
-          className="text-2xl md:text-3xl px-6 py-20 max-w-3xl text-center m-5 text-black font-large"
+          className="text-2xl md:text-3xl p-6 max-w-3xl text-center m-5 text-black font-large"
           dangerouslySetInnerHTML={{
             __html: description,
           }}

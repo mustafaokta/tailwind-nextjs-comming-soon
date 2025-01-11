@@ -7,11 +7,11 @@ const data = {
     title: "",
     description: "Maximize Your Brand's Visibility – Florida's Busiest Streets Await!",
     newsletterheading: "Enter your email below to secure early access and exclusive offers!",
-    copyrightText: `Copyright © ${currentYear} | Design and Developed By Fluxesoft</a>`,
-    socialIconsHeading: "Follow Us 📣",
+    copyrightText: ``,
+    socialIconsHeading: "",
     hideSubscribeForm: false, // make true to disable subscription form 
     socialIcons: [
-        {
+        /* {
             icon: "facebook",
             link: "https://www.facebook.com/",
         },
@@ -22,7 +22,7 @@ const data = {
         {
             icon: "linkedIn",
             link: "https://www.linkedin.com/",
-        },
+        }, */
     ],
     hide :{
         subscribeForm: false, // make true to disable subscription form         
