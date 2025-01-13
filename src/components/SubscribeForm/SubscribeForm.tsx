@@ -32,7 +32,7 @@ export default function Home() {
 
   return (
     <div className='bg-white text-black p-2'>
-      <h1>Enter your email below to secure early access and exclusive offers!</h1>
+      <h3>Join our mailing list and get early access to our special promotions!</h3>
     {/*   <form onSubmit={handleSubmit}>
         <input
           type="email"

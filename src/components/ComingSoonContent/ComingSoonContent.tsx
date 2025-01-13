@@ -14,7 +14,7 @@ function ComingSoonContent() {
         </h2>
         <div className="mt-4">
           <p
-            className="text-2xl md:text-3xl max-w-3xl text-center font-bold font-serif  text-black font-large"
+            className="text-2xl md:text-3xl max-w-3xl text-center font-bold font-sans  text-black font-large"
             dangerouslySetInnerHTML={{
               __html: "Maximize Your Brand's Visibility",
             }}

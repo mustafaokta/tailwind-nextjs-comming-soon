@@ -6,7 +6,7 @@ const data = {
     sitelogo: "",
     title: "COMING SOON!",
     description: "Maximize Your Brand's Visibility – Florida's Busiest Streets Await!",
-    newsletterheading: "Enter your email below to secure early access and exclusive offers!",
+    newsletterheading: "Join our mailing list and get early access to our special promotions",
     copyrightText: ``,
     socialIconsHeading: "",
     hideSubscribeForm: false, // make true to disable subscription form 
