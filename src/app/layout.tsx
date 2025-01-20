@@ -39,7 +39,7 @@ export default function RootLayout({
       </Head>
       <body className={ `${inter.className} bg-gray-200\tmin-h-screen dark:bg-[#0d1117] `}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem={true}>
-          <main className='main'>{children}</main>
+          {children}
         </ThemeProvider>
       </body>
     </html>
