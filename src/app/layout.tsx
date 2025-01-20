@@ -2,6 +2,7 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import { ThemeProvider } from './theme-provider'
 import Script from 'next/script'
+import Head from 'next/head'
 
 const inter = Inter({
   weight: ['100', '200', '300', '600', '400', '700', '900'],
